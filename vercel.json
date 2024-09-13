@@ -4,5 +4,5 @@
     },
     "routes": [
         { src: "/server/fetch_details", dest: "/server/fetch_details.php" }
-    ],
+    ]
 }
