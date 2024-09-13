@@ -30,6 +30,8 @@ $(window).resize( function() { //for desktops
 //SUBMIT DATE
 let date_btn = $("#date_btn");
 
+let todays_date = new Date();
+
 let date = $("#date");
 
 let loader = $(".loader");
@@ -50,8 +52,18 @@ e.preventDefault();
 
 if (date.val().length == 0) {
 
- alert("Enter DOB")
+ alert("Enter Your Date of Birth");
 
+ return;
+
+} 
+
+if (Number(date.val().split("-")[0]) > Number(todays_date.getFullYear())) {
+  
+  alert("Invalid Entry");
+
+  return;
+  
 } else {
 
  loader.show()
@@ -59,7 +71,7 @@ if (date.val().length == 0) {
  date_btn.prop('disabled', false);
  
  $.ajax({
-   url : '/server/fetch_details.htm',
+   url : 'http://localhost/birthdaychecker/server/fetch_details.php',
    type : 'POST',
    data :  {
        date: date.val()
