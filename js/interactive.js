@@ -59,7 +59,7 @@ if (date.val().length == 0) {
  date_btn.prop('disabled', false);
  
  $.ajax({
-   url : 'https://birthday-calculator-beige.vercel.app/server/fetch_details.php',
+   url : '/server/fetch_details.php',
    type : 'POST',
    data :  {
        date: date.val()
