@@ -71,7 +71,7 @@ if (Number(date.val().split("-")[0]) > Number(todays_date.getFullYear())) {
  date_btn.prop('disabled', false);
  
  $.ajax({
-   url : 'http://localhost/birthdaychecker/server/fetch_details.php',
+   url : '/server/fetch_details',
    type : 'POST',
    data :  {
        date: date.val()
