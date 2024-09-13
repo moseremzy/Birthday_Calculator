@@ -1,5 +1,9 @@
 <?php
 
+header('Content-Type: application/json');
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    
 $all_months = array(
 
     '01' => 'January',
@@ -357,12 +361,18 @@ while($counter < count($zodiac_info)) {
     'zodiac_info' =>  get_zodiac_info(),
 );
 
-    header('Content-Type: application/json');
-
     $response = json_encode($data);
 
     echo $response;
 
     exit();
+
+} else {
+
+    http_response_code(405);
+
+    echo json_encode(array('error' => 'Method Not Allowed'));
+
+}
 
 ?>
