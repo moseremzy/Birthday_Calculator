@@ -1,7 +1,5 @@
 <?php
 
-header('Content-Type: application/json');
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
 $all_months = array(
@@ -360,6 +358,8 @@ while($counter < count($zodiac_info)) {
 
     'zodiac_info' =>  get_zodiac_info(),
 );
+   
+    header('Content-Type: application/json');
 
     $response = json_encode($data);
 
@@ -368,6 +368,9 @@ while($counter < count($zodiac_info)) {
     exit();
 
 } else {
+
+    
+   header('Content-Type: application/json');
 
     http_response_code(405);
 
