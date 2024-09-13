@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="js/interactive.js"></script>
+    <script src="https://kit.fontawesome.com/0855e51304.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Calculator</title>
+</head>
+<body>
+  <div class = "header">
+      <h2>Birthday Calculator</h2>
+      <i class="fa-solid fa-bars" id = "hamburger"></i>
+  </div>
+
+
+  <div class = "container">
+
+    <div class = "entry_div">
+
+    <form>
+       <p>Enter Birth Date</p>
+       <input type = "date" id = "date" name = "date" required>
+       <button id = "date_btn" disabled> Calculate</button>
+    </form> 
+
+    </div>
+
+    <hr class="hr">
+
+    <div class = "result_container">
+
+    <!--  <h1>04 October 1999 <i class="fa-solid fa-champagne-glasses"></i></h1>
+    
+      <hr class="hr">
+    
+      <div class = "grid_container">
+
+      <div class = "item1 result">
+          <h2>Day of birth</h2>
+          <img src = "./images/ballon.png" alt="" srcset="">
+          <h3>Monday</h3>
+        </div>
+
+      <div class = "item2 result">
+        <h2>Your exact age</h2>
+        <img src = "./images/cake.png" alt="" srcset="">
+        <h3>4 days</h3>
+        <h3>11 months</h3>
+        <h3>24 years</h3>
+      </div>
+
+      <div class = "item3 result">
+        <h2>Your zodiac sign</h2>
+        <div class = "zodiac_sign">
+          <h4>Scorpio <img src = "./images/scorpius.jpeg"></h4>
+          The scorpion has its stinger ready at all times (and when the stinger’s in the wash, there’s a sword or a slingshot ready to use instead). Hot-headed, bold and analytical, Scorpios feel things deeply, so they often need to recharge with some alone time. They’re strong leaders, and terrifying, grudge-bearing enemies…
+        </div>
+      </div>
+
+      <div class = "item4 result">
+        <h2>You have been alive for</h2>
+        <div class = "alive_for">
+           <p>Years: <b>24</b></p>
+           <p>Total months: <b>11</b></p>
+           <p>Total weeks: <b>20826</b></p>
+           <p>Total days: <b>282994</b></p>
+           <p>Total hours: <b>11039</b></p>
+           <p>Total minutes: <b>11</b></p>
+           <p>Total seconds: <b>11</b></p>
+        </div>
+      </div>
+
+      <div class = "item5 result">
+        <h2>Days until next birthday</h2>
+        <div class = "next_birthday">
+        <i class="fa-regular fa-calendar">
+          <b>25 days</b>
+        </i>
+      </div>
+      </div>
+
+      </div> -->
+
+    </div> 
+    
+    <div class = "loader">
+
+      <i class="fa-solid fa-rotate fa-spin"></i>
+    
+    </div>
+
+
+    <div class = "calculator_features">
+      <h1>Features of the birthday calculator</h1>
+      <h3>With this calculator you can find out the following:</h3>
+      <ul>
+        <li>The day you were born</li>
+        <li>How old you are in years</li>
+        <li>The total number of months you have lived</li>
+        <li>The total number of weeks you have lived</li>
+        <li>The total number of days you have lived</li>
+        <li>The total hours you have lived</li>
+        <li>The total minutes you have lived</li>
+        <li>The total seconds you have lived</li>
+        <li>Your chinese zodiac sign</li>
+        <li>The number of days until your next birthday</li>
+      </ul>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
