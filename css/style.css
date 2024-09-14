@@ -56,7 +56,7 @@ div.side_bar ul li a{
  }
 
  div.container {
-     width: 92%;
+     width: 95%;
      margin: auto;
  }
 
@@ -97,7 +97,7 @@ div.side_bar ul li a{
 }
 
 div.result_container h1 {
-    font-size: 24px;
+    font-size: 22px;
     color: rgb(175, 55, 55);
     margin-bottom: 15px;
 }
@@ -105,7 +105,7 @@ div.result_container h1 {
 div.result_container i {
      vertical-align: top;
      margin-left: 30px;
-     font-size: 32px;
+     font-size: 30px;
      color: rgb(87, 52, 52);
 }
 
@@ -125,14 +125,14 @@ div.item3{
 }
 
 div.result {
-    margin: 10px 10px;
+    margin: 10px 7px;
     border: 1px solid gray;
     border-radius: 15px;
 }
 
 div.result h2{
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(14, 129, 196); 
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -152,13 +152,13 @@ div.result img {
 div.result h3 {
     margin: 10px 0px;
     color: rgb(80, 79, 79);
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
 }
 
 div.zodiac_sign{
     width: 90%;
-    font-size: 17px;
+    font-size: 15px;
     margin: auto;
     line-height: 28px;
     color: rgb(56, 54, 54);
@@ -166,7 +166,7 @@ div.zodiac_sign{
 }
 
 div.zodiac_sign h4{
-    font-size: 30px;
+    font-size: 28px;
     color: rgb(46, 45, 45);
     margin-bottom: 13px;
 }
@@ -184,7 +184,7 @@ div.zodiac_sign img{
 }
 
 div.alive_for{
-    font-size: 17px;
+    font-size: 15px;
     text-align: center;
     color: rgb(56, 54, 54);
     padding: 8px 0px;
@@ -231,12 +231,12 @@ div.calculator_features {
 }
 
 div.calculator_features h1{
-    font-size: 22px;
+    font-size: 21px;
     color: yellowgreen;
 }
 
 div.calculator_features h3{
-    font-size: 17px;
+    font-size: 16px;
     font-weight: normal;
     margin: 10px 0 15px 0px;
     color: rgb(49, 48, 48);
@@ -250,13 +250,13 @@ div.calculator_features ul {
 div.calculator_features ul li {
     margin: 12px 0px;
     padding: 0;
-    font-size: 17px;
+    font-size: 16px;
     color: rgb(56, 54, 54);
 }
 
 div.loader {
     margin-top: 50px;
-    font-size: 32px;
+    font-size: 31px;
     color: rgb(158, 156, 156);
     text-align: center;
 }
