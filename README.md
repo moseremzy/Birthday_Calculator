@@ -13,3 +13,6 @@ The total minutes you have lived
 The total seconds you have lived
 Your chinese zodiac sign
 The number of days until your next birthday
+
+# Note
+This is a free hosting service, so please be patient if there are any loading delays
