@@ -1,5 +1,5 @@
 # Birthday_Calculator
-A lightweight birthday calculator app built using (HTML, CSS, JS, PHP)
+A lightwbirthday calculator app built using (HTML, CSS, JS, PHP)
 
 # Features of the birthday calculator
 With this calculator you can find out the following:
