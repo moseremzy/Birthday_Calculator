@@ -1,0 +1,3 @@
+deployment:
+  tasks:
+    - /bin/cp -r * /home/integra1/repositories/Birthday_Calculator/
